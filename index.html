@@ -7,27 +7,59 @@
 <head>
     <meta charset="utf-8">
     <title>健身網站</title>
+    <style>
+        /* class=>. */
+        .banner {
+            background-color: #666666;
+            color: white;
+            padding: 12px;
+            margin-bottom: 6px;
+            text-align: center;
+            font-size: 24px;
+            font-family: '標楷體', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .imgstyle {
+            background-color: black;
+            padding: 12px;
+            border-radius: 6px;
+            width: 30%;
+        }
+
+        .imglist {
+            text-align: center;
+            background-color: antiquewhite;
+            padding: 24ps;
+            width: 30%;
+            margin: 6px;
+        }
+    </style>
 </head>
 
 <!--可視範圍-->
 
 <body>
-    <p>
-    <h1>&#9729;健身，英文稱為workout，</h1>健身這兩個字拆開來的意思就是健康身體，通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，以及提高協調和控制身體各部分的能力來使我們的身體更強健。
 
-    <br>除了塑造好身材，透過健身可以刺激我們身體的肌肉，再搭配飲食的控制，這能大大幫助我們的肌肉量增加，以及讓我們的肌肉更加的結實。
-    </p>
-    <p>
-        <em>
-            如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，他們是如何做到年過50/60歲，<br>依舊在
-            舞臺上或者是電影螢幕上綻放光彩。答案就是堅持<b>運動健身!</b>
-        </em>
-    </p>
+    <h1 style="color: yellow;background-color: black;padding: 24px;margin: 0px;text-align: center;">
+        &#9729;健身，英文稱為workout，</h1>
+    <div style="background-color:brown">
+        健身這兩個字拆開來的意思就是健康身體，通過各種運動方式或方法來增強力量、增加肌肉量、柔韌性、耐力，以及提高協調和控制身體各部分的能力來使我們的身體更強健。
+
+        <br>除了塑造好身材，透過健身可以刺激我們身體的肌肉，再搭配飲食的控制，這能大大幫助我們的肌肉量增加，以及讓我們的肌肉更加的結實。
+        </p>
+        <p style="background-color:brown">
+            <em>
+                如果你對健身仍然保持著懷疑的態度，那你大可以去看看你喜歡的健身老戲骨幹，他們是如何做到年過50/60歲，<br>依舊在
+                舞臺上或者是電影螢幕上綻放光彩。答案就是堅持<b><span style="background-color: darksalmon; font-size: 24px; ">運動健身!</span></b>
+            </em>
+        </p>
+    </div>
+
     <hr>
     <a href="https://fitnesstwenty.com/benefits-of-workout/">
         <img src="https://fitnesstwenty.com/wp-content/uploads/2020/10/71-1024x320.jpg" width="100%" alt="1024X210.jpg">
     </a>
-    <h2>&#9728;健身的10個好處</h2>
+    <div class="banner">&#9728;健身的10個好處</div>
     <ol type="I">
 
         <li>增加基礎代謝率</li>
@@ -44,11 +76,14 @@
     </ol>
 
     <hr>
-    <!-- width可以用px改寫 -->
-    <img src="jpg/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" width="30%" alt="">
-    <img src="jpg/jesper-aggergaard-n8wuzsypQ1M-unsplash.jpg" width="30%" alt="">
-    <img src="jpg/jonathan-borba-VgZsyPiZLKw-unsplash.jpg" width="30%" alt="">
-    <h2>&#9733;好文章連結</h2>
+    <div style="background-color: rgb(129, 72, 72);text-align: center;padding: 12px;">
+        <!-- width可以用px改寫 -->
+        <img class="imgstyle" src="jpg/bruce-mars-gJtDg6WfMlQ-unsplash.jpg" width="30%" alt="">
+        <img class="imgstyle" src="jpg/jesper-aggergaard-n8wuzsypQ1M-unsplash.jpg" width="30%" alt="">
+        <img class="imgstyle" src="jpg/jonathan-borba-VgZsyPiZLKw-unsplash.jpg" width="30%" alt="">
+    </div>
+    <div class="banner" style="color: yellow;">&#9733;好文章連結</div>
+
 
     <ul>
         <li>
@@ -80,9 +115,9 @@
         </a>
     </SMall>
     <hr>
-    <h2>
+    <div class="banner">
 
-        &#9775; 一天所需卡路里</h2>
+        &#9775; 一天所需卡路里</div>
     <table width="100%" border="0" cellspacing="0" cellpadding="0"
         style="width: 100%; border-collapse: collapse; border: 1px solid #666666;"
         summary="根據每日活動量及為了調整體重至健康體重，可計算每日建議攝取熱量">
@@ -154,7 +189,7 @@
             因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。</li>
     </ul>
     <hr>
-    <h2>健身影片</h2>
+    <div class="banner">健身影片</div>
     <iframe width="100%" height="360" src="https://www.youtube.com/embed/MzLZXUnekuI"
         title="健身房新手【4天練全身課表】每天只做CP值最高的三個精華動作！│健人訓練│ 2021ep31" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -166,7 +201,7 @@
 
     <video src="video/file_example_MP4_1280_10MG.mp4" controls width="100%">載入失敗</video>
     <hr>
-    <h2>填寫表單</h2>
+    <div class="banner">填寫表單</div>
     <p>需要更多資訊?免費索取健身資訊<br>
         前100名還贈送［我愛健身］書籍一本!
     <p>
